@@ -1,10 +1,12 @@
     <div class="menu">
         <div>
-            Aula BD
+            <a href="index.php">Aula BD</a>
         </div>
 
         <div>
             <a href="aluno_cadastro.php">Cadastrar</a>
             <a href="#">Consultar</a>
+            <a href="professor_cadastro.php">Prof.Cadastrar</a>
+            <a href="professor_consulta.php">Prof.Consultar</a>
         </div>
     </div>
