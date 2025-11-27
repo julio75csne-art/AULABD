@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Curso</title>
+    <title>Cadastro de curso</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Cadastro de Curso</h1>
 
-    <form action="curso_disciplina.php">
+    <?php include "menu.php" ?>
 
-        <p>
-            Informe o nome do curso: <br>
-            <input type="text" name="curso">
-        </p>
+    <div class="conteudo">
 
-        <p>
-            Informe o nome do coordenador: <br>
-            <input type="text" name="coordenador">
-        </p>
+        <h3>Cadastro do curso </h3>
+        <form action='curso_disciplina.php' method="post">
+            <p>
+                Digite o nome do curso <br>
+                <input type="text" name="nome">
+            </p>
 
-        <p>
-            <input type="submit" value="Cadastrar Curso" name="Enviar">
-        </p>
+            <p>
+                Digite o nome do coordenador <br>
+                <input type="text" name="coordenador">
+            </p>
 
-    </form>
+            <p>
+                <input type="submit" name="enviar" value="Cadastrar">
+            </p>  
+        </form>
+
+    </div>
+
+    
 </body>
 </html>
