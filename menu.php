@@ -5,7 +5,7 @@
 
         <div>
             <a href="aluno_cadastro.php">Cadastrar</a>
-            <a href="curso_cadastro.php">Consultar</a>
+            <a href="curso_cadastro.php">Cadastrar Curso</a>
             <a href="professor_cadastro.php">Prof.Cadastrar</a>
             <a href="professor_consulta.php">Prof.Consultar</a>
         </div>
